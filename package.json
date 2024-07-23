@@ -1,0 +1,31 @@
+{
+  "name": "my-video",
+  "version": "1.0.0",
+  "description": "My Remotion video",
+  "repository": {},
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@emotion/react": "^11.13.0",
+    "@remotion/cli": "4.0.183",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "remotion": "4.0.183"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.1.0",
+    "@eslint/js": "9.5.0",
+    "@remotion/eslint-config": "4.0.183",
+    "@types/react": "^18.0.26",
+    "@types/web": "^0.0.143",
+    "eslint": "9.5.0",
+    "prettier": "^3.2.5",
+    "typescript": "^5.4.5"
+  },
+  "scripts": {
+    "start": "remotion studio",
+    "build": "remotion render MyVideo out/video.mp4",
+    "upgrade": "remotion upgrade",
+    "test": "eslint src && tsc"
+  },
+  "packageManager": "yarn@1.22.22"
+}
